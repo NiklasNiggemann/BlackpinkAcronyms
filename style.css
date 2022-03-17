@@ -138,13 +138,12 @@ form {
 /* Footer  */
 
 footer {
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     font-size: small;
-    margin-top: -40px;
+    text-align: center;
 }
 
 footer p {
@@ -166,7 +165,8 @@ footer b:hover {
 }
 
 #Impressum {
-    font-size: 14px;
+    font-size: 13px;
     color: #9d9d9dd7;
-    margin-top: 4px;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
