@@ -10,7 +10,7 @@
 h1 {
     color: #F1F1F1;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -144,18 +144,21 @@ footer {
     flex-direction: column;
     align-items: center;
     font-size: small;
+    margin-top: -40px;
 }
 
 footer p {
     color: #bdbcbc;
     opacity: 50%;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 footer a {
     text-decoration: none;
     color: #bdbcbc;
     font-size: small;
+    text-align: center;
 }
 
 footer b:hover {
